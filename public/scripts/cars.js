@@ -22,8 +22,7 @@ function toggleCariMobilButton() {
 
 function dateHandler(tanggal) {
   const userDate = new Date(tanggal);
-  const currentDate = new Date("2022-03-23"); // Tanggal yang Anda tentukan, yaitu 2022-03-23
-
+  const currentDate = new Date("2022-03-23");
   if (userDate.getTime() >= currentDate) {
     console.log("tanggalmu sesudah tanggal available");
     return true;
