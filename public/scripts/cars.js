@@ -1,4 +1,4 @@
-import carsData from "../../data/cars.json" assert { type: "json" };
+import carsData from "../cars.json" assert { type: "json" };
 
 const transmisi = document.querySelector("#transmisi");
 const tanggal = document.querySelector("#tanggal");
